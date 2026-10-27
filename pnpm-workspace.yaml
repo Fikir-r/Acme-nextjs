@@ -1,10 +1,8 @@
 packages:
   - .
-allowBuilds:
-  bcrypt: set this to true or false
-  sharp: set this to true or false
-dangerouslyAllowAllBuilds: true
-minimumReleaseAge: 2880
+
 onlyBuiltDependencies:
   - bcrypt
   - sharp
+
+minimumReleaseAge: 2880
